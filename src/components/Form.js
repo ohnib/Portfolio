@@ -6,11 +6,15 @@ const Form = () => {
     <>
         <div className='form-container'>
             <form>
-                <label htmlFor='name'>Name</label>
+                <h1>SEND ME AN EMAIL!</h1>
+                <label htmlFor='name'>NAME</label>
                 <input id='name' type='text'/>
 
-                <label htmlFor='email'>Email</label>
+                <label htmlFor='email'>EMAIL</label>
                 <input id='email' type='email'/>
+             
+                <textarea/>
+              
             </form>
         </div>
     </>

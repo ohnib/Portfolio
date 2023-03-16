@@ -1,4 +1,7 @@
 import React from 'react'
+import Header from './Header'
+import Footer from './Footer'
+import Form from './Form'
 import github from './imgs/github.svg'
 import whatsapp from './imgs/whatsapp.svg'
 import linkedin from './imgs/linkedin.svg'
@@ -9,6 +12,7 @@ import '../components/css/contacts.css'
 const Contacts = () => {
   return(
     <>
+      <Header /> 
         <div className='grid-container'>
             <section>
                 <h1 className='titulo'>CONTACT ME</h1>
@@ -32,6 +36,8 @@ const Contacts = () => {
               <img src={profile} style={{width: '280px', height: '280px'}}/>
             </section>
         </div>
+        <Form />
+        <Footer />
     </>
   )
 }
