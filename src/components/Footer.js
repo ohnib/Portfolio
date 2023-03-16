@@ -3,7 +3,7 @@ import linkedin from './imgs/linkedin.svg'
 import github from './imgs/github.svg'
 import whatsapp from './imgs/whatsapp.svg'
 import copyright from './imgs/copyright.svg'
-import '../components/footer.css'
+import '../components/css/footer.css'
 
 
 const Footer = () => {

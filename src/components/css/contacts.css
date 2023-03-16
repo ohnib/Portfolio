@@ -1,0 +1,103 @@
+:root
+{
+  --primario1: #A2ABFF;
+  --primario2: #8B95F1;
+  --primario3: #7B86E6;
+  --primario4: #5D68C9;
+  --primario5: #4B56B7;
+  --primario6: #3F49A6;
+  --primario7: #323C95;
+  --primario8: #2A3385;
+  --primario9: #1F2770;
+  --primario10:#161D5C;
+  --primario11:#0C103C;
+  --primario12:#060926;
+  --primario13:#030517;
+  --primario14:#01020B;
+  --solida1: #FFFFFF;
+  --solida2: #F2F2F2;
+  --solida3: #E6E6E6;
+  --solida4: #CCCCCC;
+  --solida5: #BFBFBF;
+  --solida6: #A6A6A6;
+  --solida7: #8C8C8C;
+  --solida8: #666666;
+  --solida9: #4D4D4D;
+  --solida10:#333333;
+  --solida11:#1A1A1A;
+  --solida12:#0D0D0D;
+  --solida13:#000000;
+}
+
+
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;700&family=Roboto:wght@400;700&family=Share+Tech+Mono&display=swap');
+
+.grid-container
+{
+    display: grid;
+    margin: 120px 0 0 80px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 0px;
+    justify-items: stretch;
+    height: 470px;
+}
+
+.grid-container #sec3 img 
+{
+    margin: -60px 40px 0 0;
+    float: right;
+}
+
+.titulo
+{
+    font-size: 2.5rem;
+    font-family: 'roboto', sans-serif;
+}
+
+.subtitulo 
+{
+    margin: 20px 0 0 0;
+    font-weight: 400;
+    font-family: 'roboto', sans-serif;
+    font-size: 1.5rem;
+    color: var(--solida11);
+}
+
+.whatsapp-section
+{
+    display: flex;
+    color: #469D27;
+    font-weight: 400;
+    font-family: 'eczar', sans-serif;
+    font-size: 1.25rem;
+    gap: 20px;
+}
+
+.linkedin-section
+{
+    display: flex;
+    color: #0A66C2;
+    font-weight: 400;
+    font-family: 'eczar', sans-serif;
+    font-size: 1.25rem;
+    gap: 20px;
+}
+
+.github-section
+{
+    display: flex;
+    color: #000;
+    font-weight: 400;
+    font-family: 'eczar', sans-serif;
+    font-size: 1.25rem;
+    gap: 20px;
+}
