@@ -12,9 +12,10 @@ const Form = () => {
 
                 <label htmlFor='email'>EMAIL</label>
                 <input id='email' type='email'/>
-             
+                <h2 style={{margin: '60px 0 0 0', color:'var(--solida1)'}}>MESSAGE ME</h2>
                 <textarea/>
-              
+                <button>ENVIAR</button>
+
             </form>
         </div>
     </>

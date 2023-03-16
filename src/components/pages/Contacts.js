@@ -1,12 +1,12 @@
 import React from 'react'
-import Header from './Header'
-import Footer from './Footer'
-import Form from './Form'
-import github from './imgs/github.svg'
-import whatsapp from './imgs/whatsapp.svg'
-import linkedin from './imgs/linkedin.svg'
-import profile from './imgs/profile_contacts.png'
-import '../components/css/contacts.css'
+import Header from '../Header'
+import Footer from '../Footer'
+import Form from '../Form'
+import github from '../imgs/github.svg'
+import whatsapp from '../imgs/whatsapp.svg'
+import linkedin from '../imgs/linkedin.svg'
+import profile from '../imgs/profile_contacts.png'
+import '../css/contacts.css'
 
 
 const Contacts = () => {
