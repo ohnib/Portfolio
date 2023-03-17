@@ -68,7 +68,18 @@
     width: 100%;
     background: #f0f0f0;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05),
-    0 1px 1px rgba(255, 255, 255, .8);
+    0 1px 1px rgba(255, 255, 255, .8); 
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+@keyframes animate 
+{
+    100%
+    {
+        transform: scaleX(1);
+    }
 }
 
 .bar .percentage-bar span
@@ -78,6 +89,9 @@
     background-color: var(--primario1);
     position: absolute;
     border-radius: 8px;
+    transform-origin: left;
+    transform: scaleX(0);
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
 }
 
 .percentage-bar.git span

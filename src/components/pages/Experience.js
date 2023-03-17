@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../Footer'
 import Header from '../Header'
 import skills from '../imgs/skills.png'
+import Timeline from '../Timeline'
 import '../css/experience.css'
 
 const Experience = () => {
@@ -53,7 +54,7 @@ const Experience = () => {
 
               <div className='bar'>
                 <div className='info'>
-                  <span>Web Development</span>
+                  <span>WebB Development</span>
                 </div>
                 <div className='percentage-bar web'>
                   <span></span>
