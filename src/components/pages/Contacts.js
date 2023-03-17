@@ -16,8 +16,8 @@ const Contacts = () => {
       <Header /> 
         <div className='grid-container'>
             <section>
-                <h1 className='titulo'>CONTACT ME</h1>
-                <h2 className='subtitulo'>Get to know me better via any <br></br> of those medias!<br></br></h2>
+                <h1 className='titulo-contacts'>CONTACT ME</h1>
+                <h2 className='subtitulo-contacts'>Get to know me better via any <br></br> of those medias!<br></br></h2>
             </section>
             <section>
                 <div className='github-section'> 
@@ -38,7 +38,6 @@ const Contacts = () => {
             </section>
         </div>
         <Form />
-        <Timeline />
         <Footer />
     </>
   )
