@@ -36,6 +36,8 @@
   --solida13:#000000;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;700&family=Roboto:wght@400;700&family=Share+Tech+Mono&display=swap');
+
 .skills-bar
 {
     width: 400px;
@@ -59,6 +61,7 @@
 {
     font-size: 1.25rem;
     font-weight: 400;
+    font-family: 'share tech mono';
 }
 
 .skills-bar .bar .percentage-bar
@@ -72,6 +75,7 @@
     transform: scaleX(0);
     transform-origin: left;
     animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+    font-family: 'share tech mono', sans-serif;
 }
 
 @keyframes animate 
@@ -92,6 +96,7 @@
     transform-origin: left;
     transform: scaleX(0);
     animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+    font-family: 'share tech mono';
 }
 
 .percentage-bar.git span
@@ -170,4 +175,19 @@
 .percentage-bar.web span::after
 {
     content: '87%';
+}
+
+.introduction
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 0 20px;
+}
+
+.titulo 
+{
+    font-family: 'eczar', sans-serif;
+    font-weight: bold;
+    margin: 40px 0 0 0;
+    text-align: center;
 }

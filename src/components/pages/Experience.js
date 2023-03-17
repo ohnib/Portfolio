@@ -10,11 +10,16 @@ const Experience = () => {
     <>
         <Header />
             <div className='introduction'>
-              <h1 className='titulo'>EXPERIENCE & SKILLS</h1>
+              <h1 className='titulo'>EXPERIENCE 
+              <br></br>
+              & 
+              <br></br>
+
+              SKILLS</h1>
 
               <img src={skills}/>
             </div>
-            
+            <div className='container'>
             <div className='skills-bar'>
               <div className='bar'>
                 <div className='info'>
@@ -61,7 +66,8 @@ const Experience = () => {
                 </div>
               </div>
             </div>
-              
+            <Timeline />
+            </div>
         <Footer />  
     </>
   )
