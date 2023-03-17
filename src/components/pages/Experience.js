@@ -19,7 +19,7 @@ const Experience = () => {
 
               <img src={skills}/>
             </div>
-            <div className='container'>
+            <div className='container-experience'>
             <div className='skills-bar'>
               <div className='bar'>
                 <div className='info'>
