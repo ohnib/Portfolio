@@ -54,7 +54,7 @@ const Experience = () => {
 
               <div className='bar'>
                 <div className='info'>
-                  <span>WebB Development</span>
+                  <span>Web Development</span>
                 </div>
                 <div className='percentage-bar web'>
                   <span></span>
