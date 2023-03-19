@@ -12,6 +12,7 @@ const Aboutme = () => {
     <>
       <Header />
         <div className='about-container'>
+            <div className='about-grid'>
             <div className='photo'>
                 <h1 className='about-name'>
                 GABRIEL 
@@ -20,36 +21,29 @@ const Aboutme = () => {
                 </h1>
                 <img src={brushStroke} style={{position: 'absolute', zIndex:'-22', right:'0', top: '0'}} />
                 <img src={me}/>
-                
+            </div>
+            
             <div className='about-card'>
-                <div className='about-img-box'>
-                    <img src={Gear1}/>
-                </div>
-                <div className='about-content'>
-                    <div className='about-details'>
-                        <h2>GENERAL SKILLS<br></br> <span>FRONT END</span></h2>
-                        <div className='about-label'>API Integration</div>
-                        <div className='about-label-content'>
-                        </div>
-
-                        <div className='about-label'>BACK END BASICS</div>
-                        <div className='about-label-content'>
-                        </div>
-
-                        <div className='about-label'>RESPONSIVE DESIGN</div>
-                        <div className='about-label-content'>
-                        </div>
-
-                        <div className='about-label'>INTERACTIVE ELEMENTS</div>
-                        <div className='about-label-content'>
-                        </div>
-
-                        <div className='about-label'>INTERFACES</div>
-                        <div className='about-label-content'>
+                    <div className='about-img-box'>
+                        <img src={Gear1} />
+                    </div>
+                    <div className='about-content'>
+                        <div className='about-card-title'>
+                            <h2> GENERAL SKILLS
+                            <br></br>
+                            <span>FRONT END</span>
+                            </h2>
                         </div>
                     </div>
+                    
+                    <div className='about-label'>
+                        <div className='about-label-text'>API INTEGRATION</div>
+                        <div className='about-label-text'>BACK END BASICS</div>
+                        <div className='about-label-text'>INTERACTIVE ELEMENTS</div>
+                        <div className='about-label-text'>INTERFACES</div>
+                        <div className='about-label-text'>RESPONSIVE DESIGN</div>
+                    </div>
                 </div>
-            </div>
             </div>
             <div className='about-technologies'>
                 <h1 className='about-titulo'> 
