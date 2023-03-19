@@ -17,7 +17,7 @@ const Experience = () => {
 
               SKILLS</h1>
 
-              <img src={skills}/>
+              <img dataTilt src={skills}/>
             </div>
             <div className='container-experience'>
             <div className='skills-bar'>

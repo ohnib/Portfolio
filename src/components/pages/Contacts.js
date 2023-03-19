@@ -7,7 +7,6 @@ import whatsapp from '../imgs/whatsapp.svg'
 import linkedin from '../imgs/linkedin.svg'
 import profile from '../imgs/profile_contacts.png'
 import '../css/contacts.css'
-import Timeline from '../Timeline'
 
 
 const Contacts = () => {
@@ -34,7 +33,7 @@ const Contacts = () => {
 
             </section>
             <section id='sec3'>
-              <img src={profile} style={{width: '280px', height: '280px'}}/>
+              <img data-tilt src={profile} style={{width: '280px', height: '280px'}}/>
             </section>
         </div>
         <Form />

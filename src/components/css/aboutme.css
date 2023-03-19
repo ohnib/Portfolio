@@ -16,6 +16,7 @@
 .about-titulo
 {
     text-align: center;
+    font-family: 'share tech mono', sans-serif;
 }
 
 .about-icons
@@ -23,12 +24,15 @@
     display: flex;
     justify-content: center;
     gap: 10px;
+    font-family: 'share tech mono', sans-serif;
 }
 
 .about-soft
 {
     text-align: center;
     margin: 80px 0 0 0;
+    font-family: 'roboto', sans-serif;
+    font-size: 1.5rem;
 }
 
 .soft-skills-container

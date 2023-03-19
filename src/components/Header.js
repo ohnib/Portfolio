@@ -9,9 +9,9 @@ const Header = () => {
             <h1 className='header-logo'>GABRIEL</h1>
             <nav className='header-nav'>
               <ul>
-                <li><a href='#'>ABOUT ME</a></li>
-                <li><a href='#'>EXPERIENCE & SKILLS</a></li>
-                <li><a href='#'>CONTACTS</a></li>
+                <li><a href='/Aboutme'>ABOUT ME</a></li>
+                <li><a href='/Experience'>EXPERIENCE & SKILLS</a></li>
+                <li><a href='/Contacts'>CONTACTS</a></li>
               </ul>
             </nav>
           </div> 

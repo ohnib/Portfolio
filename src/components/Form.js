@@ -6,17 +6,17 @@ const Form = () => {
     <>
         <div className='form-container'>
             <form>
-                <h1>SEND ME AN EMAIL!</h1>
                 <label htmlFor='name'>NAME</label>
                 <input id='name' type='text'/>
 
                 <label htmlFor='email'>EMAIL</label>
                 <input id='email' type='email'/>
-                <h2 style={{margin: '60px 0 0 0', color:'var(--solida1)'}}>MESSAGE ME</h2>
-                <textarea/>
-                <button>ENVIAR</button>
-
             </form>
+            <div className='form-message'>
+            <h2 style={{margin: '60px 0 0 0', color:'var(--solida1)'}}>MESSAGE ME</h2>
+            <textarea/>
+            <button>ENVIAR</button>
+            </div>
         </div>
     </>
   )

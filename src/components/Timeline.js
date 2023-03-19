@@ -6,7 +6,7 @@ const Timeline = () => {
     <>
         <div className='timeline-container'>
             <div className='timeline'>
-                <div className='timeline-date vertical-bar-2023'>
+                <div className='timeline-date vertical-bar-upper-item'>
                     2023
                 </div>
                 <div className='timeline-text horizontal-bar'>

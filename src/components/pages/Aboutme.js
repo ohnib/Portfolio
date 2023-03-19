@@ -13,22 +13,22 @@ const Aboutme = () => {
                 <h1 className='about-name'>
                 GABRIEL 
                 <br></br>
-                VINICIUS
+                &nbsp; &nbsp; VINICIUS
                 </h1>
                 <img src={me}/>
             </div>
             <div className='about-technologies'>
                 <h1 className='about-titulo'> {'<WEB DEVELOPER/>'} </h1>
                 <div className='about-icons' style={{display: 'flex'}}>
-                    <p style={{padding: '10px', background: '#F0DB4F', borderRadius: '16px'}}>javascript</p>
-                    <p style={{padding: '10px', background: '#F06529', borderRadius: '16px'}}>html</p>
-                    <p style={{padding: '10px', background: '#2965F1', borderRadius: '16px'}}>css</p>
-                    <p style={{padding: '10px', background: '#F0DB4F', borderRadius: '16px'}}>git</p>
-                    <p style={{padding: '10px', background: '#333333', borderRadius: '16px', color: '#FFF'}}>github</p>
-                    <p style={{padding: '10px', background: '#563D7C', borderRadius: '16px'}}>redux</p>
-                    <p style={{padding: '10px', background: '#61DBFB', borderRadius: '16px'}}>react</p>
-                    <p style={{padding: '10px', background: '#0ACF84', borderRadius: '16px'}}>figma</p>
-                    <p style={{padding: '10px', background: '#007ACC', borderRadius: '16px'}}>typescript</p>
+                    <p style={{padding: '10px', background: '#F0DB4F', borderRadius: '16px', textShadow: '2px 2px 1px rgb(0 0 0 / 10%)'}}>javascript</p>
+                    <p style={{padding: '10px', background: '#F06529', borderRadius: '16px', textShadow: '2px 2px 1px rgb(0 0 0 / 10%)'}}>html</p>
+                    <p style={{padding: '10px', background: '#2965F1', borderRadius: '16px', textShadow: '2px 2px 1px rgb(0 0 0 / 10%)'}}>css</p>
+                    <p style={{padding: '10px', background: '#F0DB4F', borderRadius: '16px', textShadow: '2px 2px 1px rgb(0 0 0 / 10%)'}}>git</p>
+                    <p style={{padding: '10px', background: '#333333', borderRadius: '16px', color: '#FFF', textShadow: '2px 2px 1px rgb(255 255 255 / 10%)'}}>github</p>
+                    <p style={{padding: '10px', background: '#563D7C', borderRadius: '16px', textShadow: '2px 2px 1px rgb(0 0 0 / 10%)'}}>redux</p>
+                    <p style={{padding: '10px', background: '#61DBFB', borderRadius: '16px', textShadow: '2px 2px 1px rgb(0 0 0 / 10%)'}}>react</p>
+                    <p style={{padding: '10px', background: '#0ACF84', borderRadius: '16px', textShadow: '2px 2px 1px rgb(0 0 0 / 10%)'}}>figma</p>
+                    <p style={{padding: '10px', background: '#007ACC', borderRadius: '16px', textShadow: '2px 2px 1px rgb(0 0 0 / 10%)'}}>typescript</p>
                 </div>
             </div>
         </div>
