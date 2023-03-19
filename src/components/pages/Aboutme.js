@@ -2,6 +2,9 @@ import React from 'react'
 import Footer from '../Footer'
 import Header from '../Header'
 import me from '../imgs/me.png'
+import brushStroke from '../imgs/brushstroke.png'
+import Gear1 from '../imgs/gear-img-box.png'
+import Gear2 from '../imgs/gear-img-box-2.png'
 import '../css/aboutme.css'
 
 const Aboutme = () => {
@@ -15,10 +18,48 @@ const Aboutme = () => {
                 <br></br>
                 &nbsp; &nbsp; VINICIUS
                 </h1>
+                <img src={brushStroke} style={{position: 'absolute', zIndex:'-22', right:'0', top: '0'}} />
                 <img src={me}/>
+                
+            <div className='about-card'>
+                <div className='about-img-box'>
+                    <img src={Gear1}/>
+                </div>
+                <div className='about-content'>
+                    <div className='about-details'>
+                        <h2>GENERAL SKILLS<br></br> <span>FRONT END</span></h2>
+                        <div className='about-label'>API Integration</div>
+                        <div className='about-label-content'>
+                        </div>
+
+                        <div className='about-label'>BACK END BASICS</div>
+                        <div className='about-label-content'>
+                        </div>
+
+                        <div className='about-label'>RESPONSIVE DESIGN</div>
+                        <div className='about-label-content'>
+                        </div>
+
+                        <div className='about-label'>INTERACTIVE ELEMENTS</div>
+                        <div className='about-label-content'>
+                        </div>
+
+                        <div className='about-label'>INTERFACES</div>
+                        <div className='about-label-content'>
+                        </div>
+                    </div>
+                </div>
+            </div>
             </div>
             <div className='about-technologies'>
-                <h1 className='about-titulo'> {'<WEB DEVELOPER/>'} </h1>
+                <h1 className='about-titulo'> 
+                    <ul className='about-change-text'>
+                        <li><span>{'<WEB DEVELOPER/>'}</span></li>
+                        <li><span>{'<FREE LANCER/>'}</span></li>
+                        <li><span>{'<REAL EXPERIENCE/>'}</span></li>
+                        <li><span>{'<UI & UX DESIGNER/>'}</span></li>
+                    </ul>
+                </h1>
                 <div className='about-icons' style={{display: 'flex'}}>
                     <p style={{padding: '10px', background: '#F0DB4F', borderRadius: '16px', textShadow: '2px 2px 1px rgb(0 0 0 / 10%)'}}>javascript</p>
                     <p style={{padding: '10px', background: '#F06529', borderRadius: '16px', textShadow: '2px 2px 1px rgb(0 0 0 / 10%)'}}>html</p>
