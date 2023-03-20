@@ -1,0 +1,64 @@
+@media (max-width:1000px)
+{
+    .about-grid
+    {
+        display: block;
+    }
+    .about-card
+    {
+        position: relative;
+        display: block;
+        right: 0;
+        margin: 200px auto 0 auto;
+    }
+    .about-card:hover
+    {
+        margin: 200px auto 0 auto;
+    }
+    .about-icons
+    {
+        flex-wrap: wrap;
+    }
+    .photo
+    {
+        justify-content: center;
+        display: grid;
+    }
+}
+
+@media (max-width:540px)
+{
+    .about-name
+    {
+        left: -115px;
+    }
+}
+
+@media (max-width: 400px)
+{
+    .about-change-text
+    {
+        font-size: 1rem;
+    }
+    .about-icons
+    {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 370px)
+{
+    .about-card
+    {
+        display: none; 
+    }
+    .photo
+    {
+        margin: 0;
+    }
+    .about-name
+    {
+        display: block;
+        position: static;
+    }
+}

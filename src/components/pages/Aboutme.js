@@ -6,6 +6,7 @@ import brushStroke from '../imgs/brushstroke.png'
 import Gear1 from '../imgs/gear-img-box.png'
 import Gear2 from '../imgs/gear-img-box-2.png'
 import '../css/aboutme.css'
+import '../css responsivo/ResponsivoAbout.css'
 
 const Aboutme = () => {
   return (
@@ -19,13 +20,14 @@ const Aboutme = () => {
                 <br></br>
                 &nbsp; &nbsp; VINICIUS
                 </h1>
-                <img src={brushStroke} style={{position: 'absolute', zIndex:'-22', right:'0', top: '0'}} />
                 <img src={me}/>
             </div>
+            <img src={brushStroke} style={{position: 'absolute', zIndex:'-22', right:'0', top: '0'}} />
+
             
             <div className='about-card'>
                     <div className='about-img-box'>
-                        <img src={Gear1} />
+                        <img src={Gear2} />
                     </div>
                     <div className='about-content'>
                         <div className='about-card-title'>
