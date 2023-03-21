@@ -9,6 +9,7 @@ footer
 {    
   position: absolute;
   bottom: -75px;
+  height: 75px;
   width: 100%;
   padding: 22px 0 10px 22px;
   color: var(--solida13);
@@ -66,4 +67,37 @@ li.number
 li 
 {
   margin: 0 1.125rem;
+}
+
+@media(max-width:500px)
+{ 
+  nav li 
+  {
+    display: block;
+  }
+  li.number
+  {
+    display: none;
+  }
+  .footer-img
+  {
+    display: none;
+  }
+  .name
+  {
+    float: initial;
+    display: block;
+    text-align: center;
+  }
+  nav.nav
+  {
+    margin: 20px;
+    float: initial;
+    display: flex;
+    justify-content: center;
+  }
+  div.form-message button
+  {
+    margin: 20px 0 20px 0;
+  }
 }

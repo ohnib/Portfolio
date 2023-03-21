@@ -70,7 +70,7 @@ const Timeline = () => {
             </div>
 
             <div className='timeline'>
-                <div className='timeline-date vertical-bar'>
+                <div className='timeline-date vertical-bar-lower-item'>
                     2003
                 </div>
                 <div className='timeline-text horizontal-bar'>

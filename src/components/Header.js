@@ -2,7 +2,7 @@ import React from 'react'
 import '../components/css/header.css'
 
 const Header = () => {
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState(true);
   function toggleMenu()
   {
     setOpen(!open)

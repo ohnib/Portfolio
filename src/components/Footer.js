@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer>
         <div className='container'>
-            <img src={copyright} />
+            <img src={copyright} className='footer-img' />
             <p className='name'>GABRIEL VINICIUS <br></br> {'< WEB DEVELOPER >'}</p>
             <nav className='nav'>
               <ul>

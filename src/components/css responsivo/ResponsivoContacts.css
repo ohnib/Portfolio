@@ -47,6 +47,14 @@
     textarea,input
     {
         width: 250px;
-        min-width: none;
+    }
+}
+
+@media (max-width:350px)
+{
+    input
+    {
+        width: 200px;
+        min-width: 200px;
     }
 }

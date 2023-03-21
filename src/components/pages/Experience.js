@@ -4,6 +4,7 @@ import Header from '../Header'
 import skills from '../imgs/skills.png'
 import Timeline from '../Timeline'
 import '../css/experience.css'
+import '../css responsivo/ResponsivoExperience.css'
 
 const Experience = () => {
   return (
