@@ -6,6 +6,7 @@ import github from '../imgs/github.svg'
 import whatsapp from '../imgs/whatsapp.svg'
 import linkedin from '../imgs/linkedin.svg'
 import profile from '../imgs/profile_contacts.png'
+import '../css responsivo/ResponsivoContacts.css'
 import '../css/contacts.css'
 
 
@@ -33,7 +34,7 @@ const Contacts = () => {
 
             </section>
             <section id='sec3'>
-              <img data-tilt src={profile} style={{width: '280px', height: '280px'}}/>
+              <img src={profile} style={{width: '280px', height: '280px'}}/>
             </section>
         </div>
         <Form />

@@ -133,7 +133,7 @@ li
     height: 190px; 
     right: 10%;
     background-color: var(--solida1);
-    margin: 0 0 60px 0;
+    margin: 90px 0 60px 0;
     border-radius: 8px;
     box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
     transition: 0.5s;
@@ -232,7 +232,8 @@ li
 
 .about-label-text
 {
-    margin: 10px 0 ;
+    margin: 6px 0 ;
+    display: inline-block;
     cursor: pointer;
     font-weight: bold;
 }

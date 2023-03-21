@@ -3,7 +3,6 @@ import Footer from '../Footer'
 import Header from '../Header'
 import me from '../imgs/me.png'
 import brushStroke from '../imgs/brushstroke.png'
-import Gear1 from '../imgs/gear-img-box.png'
 import Gear2 from '../imgs/gear-img-box-2.png'
 import '../css/aboutme.css'
 import '../css responsivo/ResponsivoAbout.css'
@@ -40,9 +39,14 @@ const Aboutme = () => {
                     
                     <div className='about-label'>
                         <div className='about-label-text'>API INTEGRATION</div>
+                        <br></br>
                         <div className='about-label-text'>BACK END BASICS</div>
+                        <br></br>
                         <div className='about-label-text'>INTERACTIVE ELEMENTS</div>
+                        <br></br>
+
                         <div className='about-label-text'>INTERFACES</div>
+                        <br></br>
                         <div className='about-label-text'>RESPONSIVE DESIGN</div>
                     </div>
                 </div>
