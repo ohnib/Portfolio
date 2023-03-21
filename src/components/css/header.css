@@ -42,6 +42,7 @@ header
 
 .header-nav li
 {
+  z-index: 20;
   display: inline-block;
 }
 
@@ -97,4 +98,69 @@ li
   --solida11:#1A1A1A;
   --solida12:#0D0D0D;
   --solida13:#000000;
+}
+
+/*Menu Mobile e parte responsive*/
+
+
+@media (max-width: 800px)
+{
+  .menu-ativo ul
+  {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 100px;
+    right: 0;
+    background-color: var(--solida13);
+  }
+  .menu-ativo a:hover
+  {
+    transform: scale(1.1);
+  }
+  .menu-ativo a
+  {
+    border-top: 1px solid var(--primario1);
+  }
+  .menu-mobile-container
+  {
+    padding: 20px;
+    cursor: pointer;
+  }
+
+  .menu-mobile
+  {
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: var(--primario1);
+    box-shadow: 0 10px var(--primario1), 0 -10px var(--primario1);
+    transition: 0.5s;
+  }
+
+  .menu-mobile-close 
+  {
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: var(--primario1);
+    transform: rotate(45deg);
+    transition: 0.5s;
+  }
+
+  .menu-mobile-close::after
+  {
+    content: '';
+    width: 60px;
+    height: 2px;
+    background-color: var(--primario1);
+    display: flex;
+    position: relative;
+    transform: rotate(90deg);
+  }
+  .header-none
+  {
+    display: none !important;
+    transition: 0.5s;
+  }
 }
