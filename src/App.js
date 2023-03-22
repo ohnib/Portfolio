@@ -1,28 +1,22 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Contacts from './components/pages/Contacts';
 import Experience from './components/pages/Experience';
 import Aboutme from './components/pages/Aboutme';
+import NotFound from './components/NotFound';
 
 const App = () => {
-  const { pathname } = window.location;
-
-  let Component;
-  if (pathname === '/Experience')
-  {
-    Component = Experience
-  } 
-  else if (pathname === '/Contacts')
-  {
-    Component = Contacts
-  }
-  else
-  {
-    Component = Aboutme
-  }
-
+  
   return (
   <>
-    <Component/>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/Aboutme' element={<Aboutme />}/>
+        <Route path='Contacts' element={<Contacts />}/>
+        <Route path='Experience' element={<Experience />}/>
+        <Route path='*' element={<NotFound />}/>
+      </Routes>
+    </BrowserRouter>
   </>
   )
 };
