@@ -11,7 +11,7 @@ const App = () => {
   <>
     <BrowserRouter>
       <Routes>
-        <Route path='/Aboutme' element={<Aboutme />}/>
+        <Route path='/' element={<Aboutme />}/>
         <Route path='Contacts' element={<Contacts />}/>
         <Route path='Experience' element={<Experience />}/>
         <Route path='*' element={<NotFound />}/>

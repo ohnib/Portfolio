@@ -20,7 +20,7 @@ const Header = () => {
                 </span>
               </div>
               <ul className={open ? 'header-none' : ''}>
-                <li><a href='/Aboutme'>ABOUT ME</a></li>
+                <li><a href='/'>ABOUT ME</a></li>
                 <li><a href='/Experience'>EXPERIENCE & SKILLS</a></li>
                 <li><a href='/Contacts'>CONTACTS</a></li>
               </ul>
