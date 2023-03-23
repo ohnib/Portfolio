@@ -6,13 +6,17 @@ const Form = () => {
 
   const form = useRef();
 
-  const sendEmail = (e) => {
+  const sendEmail = (e) =>
+  {
     e.preventDefault();
+    alert('You sent your email successfully!')
 
     emailjs.sendForm('service_1g9rbcl', 'template_jbhzvd8', form.current, 'ccnKAF7OyTlHGlaz2')
-      .then((result) => {
+      .then((result) => 
+      {
           console.log(result.text);
-      }, (error) => {
+      }, (error) => 
+      {
           console.log(error.text);
       });
   };
@@ -28,7 +32,7 @@ const Form = () => {
           
           <label className='form-message'>Message</label>
           <textarea name="message" />
-          <input type="submit" value="submit" />
+          <input type="submit" value="SUBMIT"/>
         </form>
       </div>
     </>

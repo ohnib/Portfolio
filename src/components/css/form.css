@@ -98,3 +98,25 @@ button
     color: var(--solida12);
     transition: 0.3s;
   }
+
+  input[type=submit]
+  {
+    display: block;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: 0.1s;
+    border: 1px solid var(--solida1);
+    background: var(--solida13);
+    color: var(--solida2);
+    padding: 12px 24px;
+    margin: 0 0 20px 0;
+    max-width: 250px;
+  }
+
+  input[type=submit]:hover
+  {
+    background: var(--solida1);
+    color: var(--solida12);
+    transition: 0.3s;
+  }
