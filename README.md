@@ -2,6 +2,7 @@
 # Portfolio 
 Meu portfolio, falando sobre minhas habilidades, personalidade e soft skills, metas, conquistas profissionais e coisas que eu aprendi :) 
 
+Link: https://portfolio-rosy-alpha-35.vercel.app/
 
 # EN
 # Portfolio
